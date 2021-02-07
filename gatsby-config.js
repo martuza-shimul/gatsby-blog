@@ -6,5 +6,10 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: ["gatsby-plugin-emotion"],
+  siteMetadata: {
+    title: "Technical Blog",
+    description: "You can find some useful writtings in this blog",
+    author: "Martuza Shimul",
+  },
+  plugins: ["gatsby-plugin-emotion", "gatsby-plugin-react-helmet"],
 }

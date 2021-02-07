@@ -30,6 +30,10 @@ const Header = () => (
       align-items: center;
       justify-content: space-between;
       padding: 0.5rem calc((100vw - 1240px) / 2);
+
+      @media (max-width: 1279px) {
+        padding: 0.5rem 20px;
+      }
     `}
   >
     {/* <div className="container"> */}
